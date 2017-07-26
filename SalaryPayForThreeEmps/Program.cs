@@ -73,6 +73,9 @@ namespace SalaryPayForThreeEmps
                 double dblEmp03Total = dblEmp03Rate * dblEmp03Hours;
                 Console.WriteLine("Emp #3 week's pay: {0}", dblEmp03Total);
             }
+
+            Console.WriteLine("Hit a key to EXIT.");
+            Console.ReadKey();
         }
     }
 }
